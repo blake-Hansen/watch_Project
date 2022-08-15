@@ -1,0 +1,84 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* 
+Creating the frame for the watch to sit inside
+as well as the structure of the watch and upper and lower band */
+
+#frame {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#center-watch {
+    width: 200px;
+    height: 500px;
+    /* border: 1px solid #1e81b0; */
+}
+
+#watch-face-frame {
+    width: 100%;
+    height:40%;
+    border: 8px solid #063970;
+    border-radius: 12px;
+}
+
+/* ----  Band designs below  ----  */
+
+.band-frame {
+    width: 100%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 11fr 20fr 8fr;
+}
+
+.band-design{
+    background-color: #1e81b0;
+}
