@@ -3,7 +3,7 @@ $( document ).ready(function() {
     
     function getTime(){
         let time = new Date();
-        let army = time.getHours();
+        let armyTime = time.getHours();
         let hours = time.getHours();
         hours = ((hours + 11) % 12 + 1);
         let minutes = time.getMinutes();
@@ -15,7 +15,7 @@ $( document ).ready(function() {
         $( "#minute" ).html(`:${minutes}`);
         $( "#second" ).html(seconds);
 
-        if( army > 6 && army < 21 ) {
+        if( armyTime > 6 && armyTime < 21 ) {
             pic = `<i class="fa-solid fa-sun"></i>`
         } else {
             pic = `<i class="fa-solid fa-cloud-moon"></i>`
