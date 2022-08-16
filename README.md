@@ -1,2 +1,2 @@
 # watch_Project
-Watch utilizing html/css/javascript
+Watch utilizing html/css/javascript/jquery/font-awesome
