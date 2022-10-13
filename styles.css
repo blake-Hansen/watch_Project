@@ -134,3 +134,22 @@ span {
     color: darkblue;
     font-size: 70px;
 }
+
+/* footer */
+
+footer {
+    width:90%;
+    height: 250px;
+    border:solid #063970;
+    margin-top: -50px;
+   margin-left:10%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot{
+    width:30%;
+    height:250px;
+    border:solid blue;
+}
